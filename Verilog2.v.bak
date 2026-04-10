@@ -1,0 +1,26 @@
+// testbench for xor  module 
+
+module testbench ();
+	//tb signals
+	
+	reg b;
+	reg a;
+	wire y;
+
+	// instantiate xor module 
+	xor_gate dut(
+		.Y(y),
+		.A(a),
+		.B(b)
+	);
+
+	// apply stimuli 
+	initial begin 		
+		
+	
+
+
+	end 
+
+
+endmodule 
