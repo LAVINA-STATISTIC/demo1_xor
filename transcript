@@ -1,0 +1,17 @@
+# Compile of Verilog2.v was successful.
+# Compile of xor_gate.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 11:16:34 on Apr 10,2026
+# Loading work.testbench
+# Loading work.xor_gate
+add wave -position insertpoint sim:/testbench/*
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+add wave -position insertpoint \
+sim:/testbench/b 
+add wave -position insertpoint \
+sim:/testbench/b 
+# End time: 11:20:18 on Apr 10,2026, Elapsed time: 0:03:44
+# Errors: 0, Warnings: 6
